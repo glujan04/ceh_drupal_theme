@@ -1,6 +1,8 @@
 framework:
   css:
     theme:
+      css/bootstrap.css: {}
+      css/layout.css: {}
       css/style.css: {}
 
 # Uncomment for LESS source JavaScript files.
@@ -17,6 +19,8 @@ framework:
 #    bootstrap/js/scrollspy.js: {}
 #    bootstrap/js/tab.js: {}
 #    bootstrap/js/transition.js: {}
+    js/language_select.js: {}
+    js/cookie_message.js: {}
 
 # Uncomment for SASS source JavaScript files.
 #  js:
