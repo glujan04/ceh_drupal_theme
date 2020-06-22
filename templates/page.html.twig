@@ -56,7 +56,7 @@
 <div id="cookie_message" class="cookie_message"> 
  <div class="message"><p><strong>{{'Important information about cookies:'|t}}</strong><br>{{'The website uses its own cookies to 
 improve the browsing experience. The cookies used do not contain any personal information. If you continue browsing the site we will understand that you have accepted their use.'|t}}</p></div>
- <div class="cookie_policy"><a href="{{ path('entity.node.canonical', {'node': 15}) }}">{{'Find more information on cookies and how to block them in our Cookies Policy.'|t}}</a></div>
+ <div class="cookie_policy"><a href="{{ path('entity.node.canonical', {'node': 8}) }}">{{'Find more information on cookies and how to block them in our Cookies Policy.'|t}}</a></div>
  <div class=""> <button id="accept_cookie" type="button" class="btn btn-accept">{{'Accept'|t}}</button>
  <button id="close_cookie" type="button" class="btn btn-daccept">{{'Close'|t}}</button> </div>
 </div>
@@ -93,7 +93,7 @@ Brand and toggle get grouped for better mobile display -->
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}"
+        <a class="navbar-brand" href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}"
           ><img
             alt="Smart Costa Del Sol"
             src="{{ base_path ~ directory }}/images/a2f6392d6a3cb3d9e4cf2c7ac5b7336e.svg"
@@ -103,11 +103,11 @@ Brand and toggle get grouped for better mobile display -->
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-nav-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right ceh_nav">
-          <li><a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}">{{'Description of the initiative'|t}}</a></li>
-          <li><a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}dataset">{{'Datasets'|t }}</a></li>
-          <li><a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}sparql">SPARQL</a></li>
-          <li><a href={{ path('entity.node.canonical', {'node': 3}) }}>API</a></li>
-          <li><a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}stats">{{'Statistics'|t}}</a></li>
+          <li><a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}">{{'Description of the initiative'|t}}</a></li>
+          <li><a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}dataset">{{'Datasets'|t }}</a></li>
+          <li><a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}sparql">SPARQL</a></li>
+          <li><a href={{ path('entity.node.canonical', {'node': 10}) }}>API</a></li>
+          <li><a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}stats">{{'Statistics'|t}}</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -172,29 +172,29 @@ Brand and toggle get grouped for better mobile display -->
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}"><img class="footer_logo" alt="costa del sol" src="{{ base_path ~ directory }}/images/a2f6392d6a3cb3d9e4cf2c7ac5b7336e.svg"></a>
+            <a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}"><img class="footer_logo" alt="costa del sol" src="{{ base_path ~ directory }}/images/a2f6392d6a3cb3d9e4cf2c7ac5b7336e.svg"></a>
             <div><strong class="text-uppercase text-small">{{'Quick Access'|t }}</strong></div>
             <div class="list-group footer_nav">
-             <a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}" class="list-group-item">{{ 'Description of the initiative'|t }}</a>
-             <a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}dataset" class="list-group-item">{{ 'Datasets'|t }}</a>
+             <a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}" class="list-group-item">{{ 'Description of the initiative'|t }}</a>
+             <a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}dataset" class="list-group-item">{{ 'Datasets'|t }}</a>
              <a href="{{ '/en/'|t }}noticias" class="list-group-item">{{ 'News, information and updates'|t }}</a>
              <a href="{{ '/en/'|t }}apps" class="list-group-item">{{ 'Applications'|t }}</a>
            </div>
           </div>
           <div class="col-md-4">
            <div class="list-group footer_nav">
-             <a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}stats" class="list-group-item">{{ 'Statistics'|t }}</a>
+             <a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}stats" class="list-group-item">{{ 'Statistics'|t }}</a>
              <a href="{{ '/en/'|t }}documentos" class="list-group-item">{{ 'Documentation and help'|t }}</a>
-             <a href="{{ path('entity.node.canonical', {'node': 1}) }}" class="list-group-item">{{ 'Terms and licenses'|t }}</a>
-             <a href="{{ path('entity.node.canonical', {'node': 12}) }}" class="list-group-item">{{ 'Participate'|t }}</a>
-             <a href="https://catalogo.smartcostadelsol.es{{ '/en/'|t }}sparql" class="list-group-item">SPARQL</a>
-             <a href="{{ path('entity.node.canonical', {'node': 3}) }}" class="list-group-item">API</a>
+             <a href="{{ path('entity.node.canonical', {'node': 11}) }}" class="list-group-item">{{ 'Terms and licenses'|t }}</a>
+             <a href="{{ path('entity.node.canonical', {'node': 16}) }}" class="list-group-item">{{ 'Participate'|t }}</a>
+             <a href="https://opendataelhierro.idomdev.es{{ '/en/'|t }}sparql" class="list-group-item">SPARQL</a>
+             <a href="{{ path('entity.node.canonical', {'node': 10}) }}" class="list-group-item">API</a>
            </div>
           </div>
           <div class="col-md-4">
            <div class="list-group footer_nav">
-             <a href="{{ path('entity.node.canonical', {'node': 17}) }}" class="list-group-item">{{ 'Privacy Policy'|t }}</a>
-             <a href="{{ path('entity.node.canonical', {'node': 15}) }}" class="list-group-item">{{ 'Cookie Policy'|t }}</a>
+             <a href="{{ path('entity.node.canonical', {'node': 5}) }}" class="list-group-item">{{ 'Privacy Policy'|t }}</a>
+             <a href="{{ path('entity.node.canonical', {'node': 8}) }}" class="list-group-item">{{ 'Cookie Policy'|t }}</a>
            </div>
            <div><br><strong class="text-uppercase text-small">{{'Language'|t }}</strong></div>
             <div class="dropdown">
@@ -220,7 +220,7 @@ Brand and toggle get grouped for better mobile display -->
           </div>
           <div class="col-md-4 links">
             <p class="pull-right">
-              <a href="{{ path('entity.node.canonical', {'node': 13}) }}">{{ 'Legal Warning'|t  }}</a> | <a href="{{ path('entity.node.canonical', {'node': 14}) }}">{{'Accessibility'|t}}</a>
+              <a href="{{ path('entity.node.canonical', {'node': 17}) }}">{{ 'Legal Warning'|t  }}</a> | <a href="{{ path('entity.node.canonical', {'node': 9}) }}">{{'Accessibility'|t}}</a>
               <img src="{{ base_path ~ directory }}/images/aa.png" alt="aa">
             </p>
           </div>
