@@ -17,6 +17,7 @@ function checkCookie(cname) {
 
 (function ($) {
  var cname = "accept_cookies";
+ console.log(cname);
  if(!checkCookie(cname)){
   $('#cookie_message').css('display', 'flex');
  }
