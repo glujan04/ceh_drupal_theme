@@ -3,7 +3,7 @@ function setCookie(cname) {
   var exdays = 7;
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
-  document.cookie = cname+"=true;" + expires + ";domain=smartcostadelsol.es";
+  document.cookie = cname+"=true;" + expires + ";domain=opendataelhierro.idomdev.es";
 }
 
 function checkCookie(cname) {
@@ -17,7 +17,6 @@ function checkCookie(cname) {
 
 (function ($) {
  var cname = "accept_cookies";
- console.log(cname);
  if(!checkCookie(cname)){
   $('#cookie_message').css('display', 'flex');
  }
